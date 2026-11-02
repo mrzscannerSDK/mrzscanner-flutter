@@ -1,0 +1,25 @@
+# What pub leaves out (with a .pubignore, pub does not use .gitignore here: the staged SDK in
+# android/maven and ios/mrzscanner goes into the package).
+.dart_tool/
+build/
+.idea/
+*.iml
+.DS_Store
+example/build/
+example/.dart_tool/
+example/ios/Pods/
+example/ios/Flutter/ephemeral/
+example/android/.gradle/
+example/android/local.properties
+pubspec.lock
+example/pubspec.lock
+build.sh
+publish.sh
+# Written by flutter on the machine that builds the example (absolute paths of that machine).
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
+example/ios/Flutter/Generated.xcconfig
+example/ios/Flutter/flutter_export_environment.sh
+example/macos/Flutter/ephemeral/
+example/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+example/ios/Runner/GeneratedPluginRegistrant.*
